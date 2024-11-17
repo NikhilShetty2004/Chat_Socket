@@ -29,6 +29,9 @@ NODE_ENV=...
 ```shell
 npm run build
 ```
+##Deploy
+
+https://chat-app-tti5.onrender.com/
 
 ### Start the app
 
