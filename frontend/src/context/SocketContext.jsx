@@ -16,7 +16,7 @@ export const SocketContextProvider = ({ children }) => {
   useEffect(() => {
     if (authUser) {
       // Get the socket URL from the environment variable
-      const socketURL = import.meta.env.VITE_SOCKET_URL || 'http://localhost:5000';
+      const socketURL = 'https://chat-app-mmzc.onrender.com';
 
       const socket = io(socketURL, {
         query: {
